@@ -1,6 +1,11 @@
-//Mon Aug 05 2024 07:04:17 GMT+0000 (Coordinated Universal Time)
+//Mon Aug 05 2024 07:20:00 GMT+0000 (Coordinated Universal Time)
 //Base:https://github.com/echo094/decode-js
 //Modify:https://github.com/smallfawn/decode_action
+/**
+ * cron "0 7,8,17 * * *" ZSWY.js
+ * export ZSWY="账号1&密码1 账号2&密码2"
+ * export OCR_SERVER="ocr服务"
+ */
 const $ = new Env("\u638C\u4E0A\u6B66\u4E49");
 const notify = $.isNode() ? require("../sendNotify") : "";
 function a0d(a, b) {
